@@ -16,7 +16,7 @@ var middleware = {
 
 
 app.get('/MAGA',middleware.logger,function(req,res){
-	res.send('BECAUSE WE ARE GOING TO MAKE AMERICA GREAT AGAIN, WE\'RE GONNA MAKE IT GREATER THAN EVER BEFORE!');
+	res.send('BECAUSE WE ARE GOING TO MAKE AMERICA GREAT AGAIN, WE\'RE GOING TO MAKE IT GREATER THAN EVER BEFORE!');
 });
 
 app.use(express.static(__dirname + "/public"),function(){
