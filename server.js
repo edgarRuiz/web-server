@@ -7,7 +7,7 @@ var middleware = require('./middleware.js');
 
 
 app.get('/MAGA',middleware.logger,function(req,res){
-	res.send('BECAUSE WE ARE GOING TO MAKE AMERICA GREAT AGAIN, WE\'RE GOING TO MAKE IT GREATER THAN EVER BEFORE!');
+	res.send('');
 });
 
 app.use(express.static(__dirname + "/public"),function(){
